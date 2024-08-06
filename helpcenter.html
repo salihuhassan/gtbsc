@@ -1,0 +1,786 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>help center</title>
+
+    <link rel="stylesheet" href="asset/help.css">
+
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" /></head>
+
+</head>
+<body>
+    
+    <!-- hearder start -->
+    <header class="header">
+
+        <nav class="navbar">
+    
+    <div class="drop-down">
+        <div class="wrapper">
+    <img src="asset/image/nigeria flag.jpg" class="selectedimg">
+    <div class="selected">nigeria</div>
+        </div>
+        <i class="fa-solid fa-arrow-down arrow"></i>
+    
+    <div class="list">
+        <div class="item">
+            <img src="asset/image/canada flag.png">
+            <div class="text">canada</div>
+        </div>
+    
+        <div class="item">
+            <img src="asset/image/china flag.jpg">
+            <div class="text">china </div>
+        </div>
+    
+        <div class="item">
+            <img src="asset/image/ghana flag.jpg">
+            <div class="text">ghana</div>
+        </div>
+    
+        <div class="item">
+            <img src="asset/image/brazil flag.jpg">
+            <div class="text">brazil</div>
+        </div>
+    
+        <div class="item">
+            <img src="asset/image/egyp flag.png">
+            <div class="text">egyp</div>
+        </div>
+    
+    </div>
+    
+    </div>
+    
+    <div class="menu-bar">
+
+      <div class="dropdown">
+        <button onclick="toggleDropdown()" class="dropbtn">Locate</button>
+        <div id="myDropdown" class="dropdown-content">
+          <a href="locatebranch.html"><i class="fa-solid fa-bank"></i> locate a branch</a>
+          <a href="#"><i class="fa-solid fa-credit-card"></i> locate ATM</a>
+        </div>
+
+    </div>
+</div>
+    
+
+    
+            <ul>
+            <li><a href="media.html">media</a></li>
+            <li><a href="helpcenter.html">help center</a></li>
+            <li><a href="security.html">security</a></li>
+        </ul>
+        </nav>
+    
+    
+    
+        <div class="icons">
+            <i class="fa-solid fa-bars" id="menu-btn"></i>
+            <i class="fa-solid fa-search" id="search-btn"></i>
+            <div class="log"><i class="fa-solid fa-lock" id="login-btn"></i>login</div>
+        </div>
+      
+        <a href="#" class="logo"><img src="asset/image/logu.png" class="log" alt=""></i>gtb lmt</a>
+    
+    
+        <form action="" class="search-form">
+            <input type="search" id="search-box" placeholder="search here...">
+            <label for="search-box" class="fa-solid fa-search"></label>
+        </form>
+    
+    
+    
+    
+    
+        <form action="" class="login-form">
+    
+            <h3>login now</h3>
+            <input type="email" placeholder="your email" class="box">
+            <input type="password" placeholder="your password" class="box">
+            <p>forget your password <a href="#"> click here</a></p>
+            <p>don't have an account <a href="#"> create now</a></p>
+                <input type="radio">
+            <input type="submit" value="login now" class="btn">
+    
+        </form>
+    </header>
+    
+    <!-- list section -->
+    
+    
+    
+    <div class="list-section">
+        <div class="menu-bar">
+    
+            <ul>
+                <li class="hover-me"><a href="index.html"><i class="fa-solid fa-home"></i></a></li>
+    
+            </ul>
+            </div>
+    
+            <div class="menu-bar">
+    
+              <div class="dropdown">
+                  <button onclick="toggleDropdown()" class="dropbtn">personal</button>
+                  <div id="myDropdown" class="dropdown-content">
+                    <a href="account.html">account</a>
+                    <a href="services.html">service</a>
+                    <a href="locateatm.html">cards</a>
+                    <a href="loan.html"> loans</a>
+                    <a href="waytobank.html">way to bank</a>
+  
+                  </div>
+              </div>
+          
+              </div>
+                
+        
+              <div class="menu-bar">
+
+                <div class="dropdown">
+                    <button onclick="toggleDropdown()" class="dropbtn">business</button>
+                    <div id="myDropdown" class="dropdown-content">
+                      <a href="account.html">account</a>
+                      <a href="#"> SME banking</a>
+                      <a href="#">business banking</a>
+                      <a href="#">commercial banking</a>
+                      <a href="#"> corporate banking</a>
+                      <a href="#"> international trade</a>
+                      <a href="#">cards</a>
+    
+                    </div>
+                </div>
+                </div>
+           
+
+                <div class="menu-bar">
+                 
+                  <div class="dropdown">
+                      <button onclick="toggleDropdown()" class="dropbtn">about us </button>
+                      <div id="myDropdown" class="dropdown-content">
+                        <a href="#">our company</a>
+                        <a href="#">carears</a>
+                        <a href="#"> corporate social responsibility</a>
+                        <a href="#"> COVID-19 duidance</a>
+
+                      </div>
+                  </div>
+                  </div>
+
+
+                  <div class="menu-bar">
+                    <div class="dropdown">
+                        <button onclick="toggleDropdown()" class="dropbtn">investor relations</button>
+                        <div id="myDropdown" class="dropdown-content">
+                          <a href="#">corporate Information</a>
+                          <a href="#">financial Information</a>
+                          <a href="#">investor news</a>
+                          <a href="#">outlook & insights</a>
+                          <a href="#">events</a>
+                          <a href="#">annual report/a>
+
+                        </div>
+                    </div>
+                
+                    </div>
+
+
+
+                    <div class="menu-bar">
+                      <div class="dropdown">
+                          <button onclick="toggleDropdown()" class="dropbtn">open account</button>
+                          <div id="myDropdown" class="dropdown-content">
+                          </div>
+                      </div>
+                  
+                      </div>
+
+                       
+                        </div>
+                     
+                      
+    <section class="media-bar">
+
+        <div class="media-box">
+        <div class="media">
+            <h1>help center</h1>
+            <h3>we're here to  help you</h3>
+            <p>this is your first port of call whomever you need assistance 
+                with use our product and serviceeven the simplest banking operations
+            </p>
+        </div>
+    </div>
+
+
+
+</section>
+    
+    <section class="input-box">
+        <span><input type="search" placeholder="i need help with..."><i class="fa-solid fa-search"></i></span>
+
+    </section>
+
+
+
+    <section class="food">
+        <div class="food-box">
+    <div class="box">
+        <i class="fa-solid fa-building-columns"></i>
+        <p>account service</p>
+    </div>
+    
+    <div class="box">
+        <i class="fa-solid fa-newspaper"></i>
+        <p>e-channel & 737</p>
+    </div>
+    <div class="box">
+        <i class="fa-solid fa-credit-card"></i>
+        <p>cards service</p>
+    </div>
+    <div class="box">
+        <i class="fa-solid fa-globe"></i>
+        <p>non-resident of nigeria</p>
+    </div>
+    
+    
+    
+        </div>
+    </section>
+
+
+
+<section class="poot-dot">
+    <div class="box-ones">
+        <h2>account service</h2>
+        <h4>fine information about our account service topics here</h4>
+       <div class="cul">
+        <span> <h3> FAQs</h3><p>self service portal</p></span>
+       </div>
+    </div>
+
+</section>
+
+
+
+
+<section class="text-pot">
+
+<div class="box-text">
+
+    <div class="demo-text">
+      <!-- <span>  <select style="width: 50%;" id="slct1"></select><i class="fa-solid fa-plus"></i></span>
+            <option>1. how to open account</option>
+            <br> -->
+
+    </div>
+</div>
+</section>
+
+
+
+
+    <section class="boxs-table">
+
+
+  <div class="loosts">
+    <div class="loodas">
+   
+    <div class="accordion">
+      <div class="accordion-item">
+        <div class="accordion-header">1. How to Open An Account</div>
+        <div class="accordion-content">
+          <span>Internet Banking</span>
+          <br>
+       <span>Additional Account</span>
+       <span><li>Log on to Internet Banking with your User ID/Email and password.</li>
+       </span>
+       <span><li>Select Account type to open (i.e. Current or Savings Account)</li></span>
+        <span><li>Provide the answer to your secret question</li></span>
+      <span><li>Click the “I Accept the Terms and conditions” checkbox and click “Submit”</li></span>
+      <span><li>Enter your Token code and click “Submit” to complete the request</li></span>
+
+      </div>
+      </div>
+      <div class="accordion-item">
+        <div class="accordion-header">
+          3. How To Generate Your Account Statement        </div>
+        <div class="accordion-content">
+          <p>You will need the following documents to apply for an NRN account:
+          </p>
+          <p>a. Duly completed NRN Account Opening Form
+          </p>
+          <p>b. Your passport photo with full face forward
+          </p>
+          <p>c. A copy of any of the following means of Identification:
+          </p>
+          <p><li>Valid Nigerian International passport/National ID/Permanent Voters’ Card/Drivers’ License
+          </li></p>
+        </div>
+      </div>
+  
+    
+    
+      <div class="accordion-item">
+        <div class="accordion-header">
+          What electronic channels and services are available to NRN customers?
+        </div>
+        <div class="accordion-content ">
+          <p>The following electronic channels are available to the NRN customer:
+          </p>
+  <p>i. Card services:
+  </p>
+  <p><li>MasterCard (USD and Naira denominated)
+  </li></p>
+  <p>ii. GTWorld App
+  </p>
+  <p>iii. GTConnect:
+  </p>
+  <p>It is a total banking solution that provides the NRN customer instant service via a touch-tone or mobile phone. It is accessible from anywhere in the world and open for business 24 hours a day, seven days a week (Including public holidays) The NRN customer with a PIN password can do the following:
+  </p>
+  
+        </div>
+      </div>
+  
+      <div class="accordion-item">
+        <div class="accordion-header">
+          5. How to Initiate A Premium Advance Request        </div>
+        <div class="accordion-content">
+          <p>The Non Resident Nigerian service offering is a platform for Nigerians who reside outside the country to have access to the wide range of products and services the Bank presently offers
+  
+          </p>
+        </div>
+      </div>
+  
+      <div class="accordion-item">
+        <div class="accordion-header">
+          7. How to Confirm Cheques        </div>
+        <div class="accordion-content">
+          <p>The Non Resident Nigerian service offering is a platform for Nigerians who reside outside the country to have access to the wide range of products and services the Bank presently offers
+  
+          </p>
+        </div>
+      </div>
+  
+  
+      <div class="accordion-item">
+        <div class="accordion-header">
+          11. How to Update Your GTBank Account Online        </div>
+        <div class="accordion-content">
+          <p>The Non Resident Nigerian service offering is a platform for Nigerians who reside outside the country to have access to the wide range of products and services the Bank presently offers
+  
+          </p>
+        </div>
+      </div>
+  
+      <div class="accordion-item">
+        <div class="accordion-header">
+          13. How To Create a GT Target Account        </div>
+        <div class="accordion-content">
+          <p>The Non Resident Nigerian service offering is a platform for Nigerians who reside outside the country to have access to the wide range of products and services the Bank presently offers
+  
+          </p>
+        </div>
+      </div>
+  
+      <div class="accordion-item">
+        <div class="accordion-header">
+          15. How to Send Your Account Statement To Your Preferred Embassy        </div>
+        <div class="accordion-content">
+          <p>The Non Resident Nigerian service offering is a platform for Nigerians who reside outside the country to have access to the wide range of products and services the Bank presently offers
+  
+          </p>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="loodas">
+
+      <div class="accordion">
+
+      <div class="accordion-item">
+        <div class="accordion-header">
+          2. How To Link Your BVN To Your Account        </div>
+        <div class="accordion-content">
+          <p>The Non Resident Nigerian service offering is a platform for Nigerians who reside outside the country to have access to the wide range of products and services the Bank presently offers</p>
+  
+        </div>
+      </div>
+
+
+      <div class="accordion-item">
+        <div class="accordion-header">
+          4. How To Initiate A Salary Advance  </div>
+        <div class="accordion-content">
+          <p>The Non Resident Nigerian service offering is a platform for Nigerians who reside outside the country to have access to the wide range of products and services the Bank presently offers</p>
+  
+        </div>
+      </div>
+
+
+      <div class="accordion-item">
+        <div class="accordion-header">
+          6. How to Link or Unlink Your Account To Or From Your Card     </div>
+        <div class="accordion-content">
+          <p>The Non Resident Nigerian service offering is a platform for Nigerians who reside outside the country to have access to the wide range of products and services the Bank presently offers</p>
+  
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <div class="accordion-header">
+          8. How to Check Your Account Balance    </div>
+        <div class="accordion-content">
+          <p>The Non Resident Nigerian service offering is a platform for Nigerians who reside outside the country to have access to the wide range of products and services the Bank presently offers</p>
+  
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <div class="accordion-header">
+          10. How to Hide Or Unhide An Account on Internet Banking   </div>
+        <div class="accordion-content">
+          <p>The Non Resident Nigerian service offering is a platform for Nigerians who reside outside the country to have access to the wide range of products and services the Bank presently offers</p>
+  
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <div class="accordion-header">
+          12. How to Issue An Fx Draft    </div>
+        <div class="accordion-content">
+          <p>The Non Resident Nigerian service offering is a platform for Nigerians who reside outside the country to have access to the wide range of products and services the Bank presently offers</p>
+  
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <div class="accordion-header">
+          14. How To View Blocked Funds On Your Account  </div>
+        <div class="accordion-content">
+          <p>The Non Resident Nigerian service offering is a platform for Nigerians who reside outside the country to have access to the wide range of products and services the Bank presently offers</p>
+  
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <div class="accordion-header">
+          16. How to Activate Transaction Alerts via SMS or Email</div>
+        <div class="accordion-content">
+          <p>The Non Resident Nigerian service offering is a platform for Nigerians who reside outside the country to have access to the wide range of products and services the Bank presently offers</p>
+  
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+
+
+
+
+</div>
+
+    </div>
+</section>
+
+
+
+
+
+
+<section class="nearh">
+
+    
+    <div class="looter">
+        <div class="text-lloter">
+            <h2>still not satified with the FAQs?</h2>
+            <p class="loyer">you can send us message using the complainnts and inquiries form</p>
+        </div>
+
+       
+
+
+
+
+
+        
+
+            <input type="submit" value="learn more" class="btn">
+
+
+    </div>
+</section>
+
+
+
+<section class="location-info">
+
+    <div class="info">
+
+        <div class="iconts">
+            <a href="#"><i class="fa-solid fa-location-dot"></i></a>
+            <p>find a branch</p>
+        </div>
+
+        <div class="iconts">
+            <a href="#"><i class="fa-solid fa-cloud-arrow-down"></i></a>
+            <p>dowloads</p>
+            </div>
+
+            <div class="iconts">
+                <a href="#"><i class="fa-solid fa-users"></i></a>
+                <p>self services</p>
+                </div>
+
+                <div class="iconts">
+                    <a href="#"><i class="fa-solid fa-tty"></i></a>
+                    <p>help center</p>
+                    </div>
+            
+                    <div class="iconts">
+                        <a href="#"><i class="fa-solid fa-video"></i></a>
+                        <p>vidio banking</p>
+                        </div>
+
+                        <div class="iconts">
+                            <a href="#"><i class="fa-solid fa-credit-card"></i></a>
+                            <p>habari pay</p>
+                            </div>
+
+                            <div class="iconts">
+                                <a href="#"><i class="fa-solid fa-hand-holding-dollar"></i></a>
+                                <p>investments</p>
+                                </div>
+                        
+                                <div class="iconts">
+                                   <a href="#"> <i class="fa-solid fa-users"></i></a>
+                                    <p>pension</p>
+                                    </div> 
+    </div>
+</section>
+
+
+
+
+<section class="footer">
+     
+  <div class="box-container">
+  
+  
+  
+      <div class="box">
+          <h3 id="show-links8">personal</h3>
+        <div class="xflex">
+          <a href="#" class="link">saving account</a>
+          <a href="#" class="link">gurrent account</a>
+          <a href="#" class="link">compare account</a>
+          <a href="#" class="link">non resident nigerian (NRN) service</a>
+          <a href="#" class="link">loens</a>
+          <a href="#" class="link">waye to bank</a>
+          <a href="#" class="link">private banking</a>
+
+        </div>
+      </div>
+  
+      <div class="box">
+          <h3 id="show-links7">business</h3>
+         <div class="zflex">
+          <a href="#" class="link">business banking</a>
+          <a href="#" class="link">cards</a>
+          <a href="#" class="link">e-banking service</a>
+          <a href="#" class="link">commercial banking</a>
+          <a href="#" class="link">loens & advances</a>
+          <a href="#" class="link">sme banking</a>
+          <a href="#" class="link">habaripay</a>
+  
+         </div>
+      </div>
+
+      <div class="box">
+          <h3 id="show-links6"> about us</h3>
+        <div class="aflex">
+          <a href="#" class="link">our company</a>
+          <a href="#" class="link">careers</a>
+          <a href="#" class="link">corporate social responsibility</a>
+          <a href="#" class="link">investor relations</a>
+          <a href="#" class="link">contact us</a>
+          <a href="#" class="link">squad by habaripay</a>
+          <a href="#" class="link">habari pay</a>
+          <a href="#" class="link">guaranty trust fund managers</a>
+          <a href="#" class="link">guaranty trust pension managers</a>
+
+        </div>
+      </div>
+
+      <div class="box">
+          <h3 id="show-links5">help and security</h3>
+        <div class="qflex">
+          <a href="#" class="link">account reactivation</a>
+          <a href="#" class="link">conpliants & enquiries</a>
+          <a href="#" class="link">customer feedback survey</a>
+          <a href="#" class="link">dispense error</a>
+          <a href="#" class="link">help video</a>
+          <a href="#" class="link">self service</a>
+          <a href="#" class="link">security center</a>
+          <a href="#" class="link">whistle blower</a>
+
+        </div>
+      </div>
+
+
+      <div class="box">
+          <h3 id="show-links4">quick links</h3>
+         <div class="kflex">
+          <a href="#" class="link">find a branch/ATM</a>
+          <a href="#" class="link">all your bank form in one place</a>
+          <a href="#" class="link">BVN linking portal</a>
+          <a href="#" class="link">finalcial calculators</a>
+          <a href="#" class="link">irefer</a>
+          <a href="#" class="link">media center</a>
+          <a href="#" class="link">internal links</a>
+          <a href="#" class="link">video banking</a>
+          <a href="#" class="link">open account</a>
+
+         </div>
+      </div>
+
+      <div class="box">
+          <h3 id="show-links3">saving account</h3>
+       <div class="hflex">
+          <a href="#" class="link">current account</a>
+          <a href="#" class="link">compare account</a>
+          <a href="#" class="link">cards</a>
+          <a href="#" class="link">non resident nigerian (NRN) service</a>
+          <a href="#" class="link">irefer</a>
+          <a href="#" class="link">loans</a>
+          <a href="#" class="link">ways to bank</a>
+          <a href="#" class="link">private banking</a>
+
+       </div>
+      </div>
+
+
+      <div class="box">
+          <h3 id="show-links2">business banking</h3>
+          <div class="gflex">
+              <a href="#" class="link">cards</a>
+              <a href="#" class="link">e-banking services</a>
+              <a href="#" class="link">commercial banking</a>
+              <a href="#" class="link">loans & advances</a>
+              <a href="#" class="link">SME banking</a>
+              <a href="#" class="link">habaripay</a>
+  
+          </div>
+      </div>
+
+
+      <div class="box">
+          <h3 id="show-links1">our company</h3>
+          <div class="dflex">
+              <a href="#" class="link">careers</a>
+              <a href="#" class="link">corporate social responsibility</a>
+              <a href="#" class="link">investor relations</a>
+              <a href="#" class="link">contact us</a>
+              <a href="#" class="link">squad by habaripay</a>
+              <a href="#" class="link">guaranty trust fund managers</a>
+              <a href="#" class="link">guaranty trust fund pension managers</a>
+  
+          </div>
+      </div>
+
+
+      
+      
+      
+
+
+  
+      <!-- <div class="box">
+          <h3>newsletter</h3>
+              <p>subscribe for latest updates</p>
+  <input type="email" placeholder="your email" class="email">
+  <input type="submit" value="subscribe" class="btn">
+  <br>
+  <img src="asset/image/atm6.jpeg" class="payment-img">
+  <img src="asset/image/atn3.jpeg" class="payment-img">
+  <img src="asset/image/atm7.jpeg" class="payment-img" >
+  <img src="asset/image/atm 1.jpeg" class="payment-img">
+  
+      </div>
+  </div> 
+  -->
+  </section>
+ 
+  
+
+  <section class="location-info">
+
+      <div class="infor">
+  
+          <div class="iconts">
+              <a href="#"><img src="asset/image/contact gtb.jpg" alt=""></a>
+          </div>
+  
+          <div class="iconts">
+              <div class="iconts">
+                  <a href="#">+234-08066610571</a>
+              </div>
+                 
+  
+              <div class="iconts">
+                  <a href="#">+234-08066610571</a>
+                  </div>
+
+                  <div class="iconts">
+                      <a href="#">+234-08066610571</a>
+                      </div>
+
+                      <div class="iconts">
+                          <a href="#">+234-08066610571</a>
+                          </div>
+                          <div class="iconts">
+                  <a href="#">+234-08066610571</a>
+                  </div>
+      </div>
+  </section>
+
+<section class="foot">
+  <div class="foota">
+      <div class="credit">created by <span>salihu barup</span>|all rights reserved</div>
+
+
+     
+<div class="gote1">
+  <div class="share">
+      <a href="#">terms & conditions</a>
+      <a href="#">ptivacy policy</a>
+      <a href="#" >sitemap</a>
+  </div>
+
+<div class="share">
+<a href="#" class="fab fa-facebook-f"></a>
+<a href="#" class="fab fa-twitter"></a>    
+<a href="#" class="fab fa-instagram"></a>
+<a href="#" class="fab fa-youtube"></a>
+
+  </div>
+
+</div>      
+  
+  </div>
+</section>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <script src="script.js"></script>   
+</body>
+</html>
